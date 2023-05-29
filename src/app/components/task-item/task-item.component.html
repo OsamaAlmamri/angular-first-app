@@ -1,0 +1,15 @@
+<div
+  [ngClass]="{ reminder: task?.reminder }"
+  class="task"
+
+>
+  <h3>
+    {{ task?.text }}
+    <fa-icon
+ 
+      [ngStyle]="{ color: 'red' }"
+      [icon]="faTimes"
+    ></fa-icon>
+  </h3>
+  <p>{{ task?.day }}</p>
+</div>

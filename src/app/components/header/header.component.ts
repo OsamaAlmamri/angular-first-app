@@ -7,7 +7,7 @@ import { Component,Input } from '@angular/core';
 })
 export class HeaderComponent {
 
-  @Input() title:string ="Title";
+  @Input() title:string ="Tasks";
   toogleAddTask ()
   {
     console.log("emmmit");
